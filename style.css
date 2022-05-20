@@ -1,0 +1,83 @@
+
+
+body{
+    background-color: aqua;
+    margin-top: 0px;
+    text-align: center;
+    font-family: cursive;
+}
+h1{
+    margin-bottom: 0px;
+    font-size: 50px;
+    text-shadow: 2px 2px wheat;
+
+}
+h3{
+    font-size: 25px;
+    font-family: fantasy;
+
+}
+.container{
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+.controls{
+    display: flex;
+    align-items: center;
+}
+.controls h3{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: black;
+}
+.controls-inner{
+    background-color: #a8dadc;
+    text-align: center;
+    padding: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.grid-size{
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 500;
+    font-size: 30px;
+}
+.apply{
+    display: block;
+    margin: 0 auto;
+    padding: 5px 10px;
+    border: none;
+    background-color: beige; 
+    font-size: 20px;
+    margin-top: 10px;
+}
+.reset{
+    display: block;
+    margin: 0 auto;
+    padding: 5px 10px;
+    border: none;
+    background-color: beige; 
+    font-size: 20px;
+    margin-top: 10px;
+}
+.grid{
+    border: 2px solid #a8dadc;
+    border-radius: 1rem;
+    width: 70rem;
+    height: 70rem;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.box{
+    border: 0.5px solid;
+    border-radius: 10px;
+}
+.box.active{
+    background-color: #191d1d;
+}
